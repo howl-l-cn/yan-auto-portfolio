@@ -29,4 +29,4 @@ Two end-to-end projects built as **handoff-ready deliverables** (workflow export
 
 ## Contact
 - Domain: `yan-auto.me`
-- GitHub: `howl-l-cn`
+- GitHub: `yan-auto`
