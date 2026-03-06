@@ -57,9 +57,23 @@ It is not just a prompt demo or a chatbot screenshot — it is a self-hosted AI 
 - VSCode Remote
 
 ## Proof / Materials
-The following materials will be added here:
-- architecture notes
-- task overview
-- screenshots
-- operation notes
-- troubleshooting records
+
+### System Operation Overview
+This screenshot shows the running status of OpenClaw, including operational duration, task count, module breakdown, and current status summary.
+
+![System Operation Overview](../../assets/openclaw/operation-overview.png)
+
+### Model Routing Overview
+This screenshot shows the core model setup of the system, including primary model, backup model, reasoning model, and fast-response model.
+
+![Model Routing Overview](../../assets/openclaw/model-routing-overview.png)
+
+### Fallback / Recovery Evidence
+This screenshot shows that the fallback mechanism was actually triggered: Gemini failures caused an automatic switch to DeepSeek, followed by automatic recovery back to Gemini.
+
+![Fallback / Recovery Evidence](../../assets/openclaw/fallback-routing.png)
+
+### Telegram Output
+This screenshot shows a real delivery result from OpenClaw through Telegram.
+
+![Telegram Output](../../assets/openclaw/telegram-output.png)
