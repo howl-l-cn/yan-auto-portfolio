@@ -70,7 +70,21 @@ It is not just an RSS reader or a prompt demo — it is a self-hosted workflow w
 - Personal server
 
 ## Proof / Materials
-The following materials will be added here:
+
+### Workflow Overview
+This screenshot shows the overall workflow structure, including RSS ingestion, state checking, conditional branching, model generation, email delivery, and logging.
+
+![Workflow Overview](../../assets/n8n/workflow-overview.png)
+
+### Email Output
+This screenshot shows the final HTML email brief generated and delivered by the workflow.
+
+![Email Output](../../assets/n8n/email-result.png)
+
+### State Tracking with `seen_items`
+This screenshot shows how processed items are stored in Google Sheets to support deduplication and persistent state management.
+
+![seen_items](../../assets/n8n/seen_items.png)
 - workflow overview screenshot
 - email brief screenshot
 - `seen_items` screenshot
